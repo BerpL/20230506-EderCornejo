@@ -1,0 +1,39 @@
+git init
+git commit -m "commit 01 de EderCornejo"
+git branch -M main
+git remote add origin https://github.com/BerpL/20230506-EderCornejo.git
+git push -u origin main
+git push
+git push --set-upstream origin main
+git add README.md
+echo "# 20230506-EderCornejo" >> README.md
+git add README.md
+git commit -m "commit 01 de EderCornejo"
+git push -u origin main
+git add .
+git commit -m "commit 01 de EderCornejo"
+git push
+git branch feature01
+git checkout feature01
+mkdir Terminal
+mkdir Hardware
+cd Terminal
+echo. > resumen.txt
+cd ..
+cd Hardware
+echo. > resumen.txt
+cd ..
+git add .
+git commit -m "commit 02 de EderCornejo"
+git push
+ git push --set-upstream origin feature01
+git branch feature02
+git checkout feature02
+git push
+git push --set-upstream origin feature02
+git add .
+git commit -m "commit 03 de EderCornejo"
+git push
+git branch
+git checkout main
+ren comandos.txt comandosUtilizados.txt
